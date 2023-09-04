@@ -16,7 +16,8 @@
 .card-conteiner {
     box-sizing: border-box;
     border-radius: 10px;
-    width: 85%;
+    width: 85vw;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
