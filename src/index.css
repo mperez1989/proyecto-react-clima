@@ -1,0 +1,74 @@
+@media(min-width: 500px) {
+    .card-conteiner {
+        width: 50vw;
+        height: 90vh;
+    }
+    img {
+        position: relative;
+        right: 30px;
+        width: 130px;
+    }
+    .list-conteiner {
+        font-size: 20px;
+    }
+    .list-conteiner:hover {
+        transform: scale(1.1);
+        font-size: 20px;
+    }
+    .section-conteiner h2 {
+        position: relative;
+        left: 10px;
+    }
+    .item1 {
+        position: relative;
+        left: 10px;
+    }
+    .item2 {
+        position: relative;
+        left: 50px;
+    }
+    .item3 {
+        position: relative;
+        left: 40px;
+    }   
+}
+
+@media(min-width: 800px) {
+    .card-conteiner h1 {
+        position: relative;
+        top: 60px;
+        font-size: 50px;
+    }
+    .country-name {
+        position: relative;
+        bottom: 20px;
+        
+    }
+    .card-conteiner {
+        width: 40vw;
+        height: 90vh;
+    }
+    .temperature {
+        position: relative;
+        bottom: 20px;
+    }
+    .btn {
+        position: relative;
+        bottom: 80px;
+    }
+}
+
+@media(min-width: 1080px) {
+    .card-conteiner {
+        width: 30vw;
+        height: 85vh;
+    }
+    img:hover {
+        transform: scale(1.1);
+        width: 130px;
+        height: 130px;
+    }
+    .section-conteiner h2 {
+        left: 15px;
+    }
+}
